@@ -1,1 +1,1 @@
-model.booster_.save_model('model.txt')
+model = lgb.Booster(model_file='model.txt')
